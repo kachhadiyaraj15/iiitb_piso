@@ -1,7 +1,7 @@
 # iiitb_piso - Parallel input Serial output Shift register
 # Functionality Simulation 
 How to download github repo file in in your pc?
-Enter this command line in your command line terminal 
+Enter this command line in your command line terminal \n
 $ git clone https://github.com/kachhadiyaraj15/iiitb_piso
 Once download this file run this command so you can run this file
 $ cd Desktop/iiitb_piso
