@@ -1,11 +1,11 @@
-module tb_piso();
+module iiitb_piso_tb();
   
   reg clk, rst, load;
   reg [7:0] data_in;
   
   wire data_out;
   
-  piso u1 (load, clk, rst, data_in, data_out);
+  iiitb_piso u1 (load, clk, rst, data_in, data_out);
   
   always #1 clk = ~clk;
   
