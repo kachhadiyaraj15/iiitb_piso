@@ -1,1 +1,1 @@
-# iiitb parallel input serial output shift register
+# iiitb_piso - Parallel input Serial output Shift register
