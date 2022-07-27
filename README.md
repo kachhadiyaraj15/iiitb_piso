@@ -14,6 +14,8 @@ Once download this file from repo now we run that file in iverilog using below c
   $ ./a.out
   $ gtkwave dump.vcd
  ```
+![RUN terminal PISO ](https://user-images.githubusercontent.com/110079774/181263695-7e2905ea-8f60-40c2-9d4f-4fcc90d178a1.png)
+
   
 ## Circuit diagram details
 A Register is a device which is used to store such
