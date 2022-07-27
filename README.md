@@ -8,8 +8,9 @@ Enter this command line in your command line terminal </br>
 ```
 
 Once download this file from repo now we run that file in iverilog using below command </br>
+Here all file save in `gitgub` folder
 ```
-  $ cd Desktop/iiitb_piso
+  $ cd github
   $ iverilog iiitb_piso.v iiitb_piso_tb.v
   $ ./a.out
   $ gtkwave dump.vcd
