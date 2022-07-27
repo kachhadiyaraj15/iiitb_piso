@@ -1,1 +1,1 @@
-# iiitb parallel input serial output 
+# iiitb parallel input serial output shift register
