@@ -3,13 +3,17 @@
 
 #### How to download github repo file in your ubuntu?</br>
 Enter this command line in your command line terminal </br>
-  $ git clone https://github.com/kachhadiyaraj15/iiitb_piso</br>
+```
+  $ git clone https://github.com/kachhadiyaraj15/iiitb_piso
+```
 
 Once download this file from repo now we run that file in iverilog using below command </br>
-  $ cd Desktop/iiitb_piso</br>
-  $ iverilog iiitb_piso.v iiitb_piso_tb.v</br>
-  $ ./a.out</br>
-  $ gtkwave dump.vcd</br>
+```
+  $ cd Desktop/iiitb_piso
+  $ iverilog iiitb_piso.v iiitb_piso_tb.v
+  $ ./a.out
+  $ gtkwave dump.vcd
+ ```
   
 ## Circuit diagram details
 A Register is a device which is used to store such
@@ -46,7 +50,6 @@ in Fig.2 output of PISO.
 
 #### GTKWAVE Output:
 ![GTKWAVE PISO OUTPUT](https://user-images.githubusercontent.com/110079774/181261100-65c84f4a-a20c-4fe3-87c9-3bafc7222e33.png)
-
 ![GTKWAVE PISO OUTPUT1](https://user-images.githubusercontent.com/110079774/181261645-8668ccc8-d78f-41d5-9d5a-f9625419de7d.png)
 ![GTKWAVE PISO OUTPUT2](https://user-images.githubusercontent.com/110079774/181261765-424b7989-e7e0-4062-9c26-f6912ba6d487.png)
 ![GTKWAVE PISO OUTPUT3](https://user-images.githubusercontent.com/110079774/181261780-eddddd84-6fc8-4abc-aa63-649f58b1ab98.png)
