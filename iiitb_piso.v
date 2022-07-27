@@ -1,4 +1,4 @@
-module piso (input load, clk, rst,
+module iiitb_piso (input load, clk, rst,
              input [7:0] data_in,
              output reg data_out);
   
