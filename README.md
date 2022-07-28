@@ -1,4 +1,8 @@
 # iiitb_piso - Parallel input Serial output Shift register
+## Introduction
+The information stored within these registers can be transferred with the help of shift registers. Shift Register is a group of flip flops used to store multiple bits of data. The bits stored in such registers can be made to move within the registers and in/out of the registers by applying clock pulses. An n-bit shift register can be formed by connecting n flip-flops where each flip flop stores a single bit of data.
+The registers which will shift the bits to left are called “Shift left registers”.
+The registers which will shift the bits to right are called “Shift right registers”.
   
 ## Circuit diagram details
 A Register is a device which is used to store such
@@ -70,6 +74,7 @@ Simulation results
 
 ## Acknowledgments
 + Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
++ MADHAV RAO , Associate Professor, iM.Tech Coordinator and Faculty in-charge-Labs
 
 ## Contact Information
 + Rajkumar Manishbhai Kachhadiya, Postgraduate Student, International Institute of Information Technology, Bangalore raj.kachhadiya15@gmail.com
