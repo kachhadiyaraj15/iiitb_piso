@@ -1,22 +1,4 @@
 # iiitb_piso - Parallel input Serial output Shift register
-## Functionality Simulation 
-
-#### How to download github repo file in your ubuntu?</br>
-Enter this command line in your command line terminal </br>
-```
-  $ git clone https://github.com/kachhadiyaraj15/iiitb_piso
-```
-
-Once download this file from repo now we run that file in iverilog using below command </br>
-Here all file save in `gitgub` folder
-```
-  $ cd github
-  $ iverilog iiitb_piso.v iiitb_piso_tb.v
-  $ ./a.out
-  $ gtkwave dump.vcd
- ```
-![RUN terminal PISO ](https://user-images.githubusercontent.com/110079774/181263695-7e2905ea-8f60-40c2-9d4f-4fcc90d178a1.png)
-
   
 ## Circuit diagram details
 A Register is a device which is used to store such
@@ -50,14 +32,48 @@ in Fig.2 output of PISO.
 
 #### Circuit Diagram
 ![PISO circuit diagram](https://user-images.githubusercontent.com/110079774/181258398-bcaf944e-b764-455b-be0d-bc982edd157f.jpg)
+Fig.2 Circuit Diagram
 
-#### GTKWAVE Output:
+## About iverilog 
+Icarus Verilog is an implementation of the Verilog hardware description language.
+
+## About GTKWave
+GTKWave is a fully featured GTK+ v1. 2 based wave viewer for Unix and Win32 which reads Ver Structural Verilog Compiler generated AET files as well as standard Verilog VCD/EVCD files and allows their viewing
+
+## Functionality Simulation 
+#### How to download github repo file in your ubuntu?</br>
+Enter this command line in your command line terminal </br>
+```
+  $ git clone https://github.com/kachhadiyaraj15/iiitb_piso
+```
+
+Once download this file from repo now we run that file in iverilog using below command </br>
+Here all file save in `gitgub` folder
+```
+  $ cd github
+  $ iverilog iiitb_piso.v iiitb_piso_tb.v
+  $ ./a.out
+  $ gtkwave dump.vcd
+ ```
+![RUN terminal PISO ](https://user-images.githubusercontent.com/110079774/181263695-7e2905ea-8f60-40c2-9d4f-4fcc90d178a1.png)
+
+## GTKWAVE Output:
+Simulation results 
 ![GTKWAVE PISO OUTPUT](https://user-images.githubusercontent.com/110079774/181261100-65c84f4a-a20c-4fe3-87c9-3bafc7222e33.png)
 ![GTKWAVE PISO OUTPUT1](https://user-images.githubusercontent.com/110079774/181261645-8668ccc8-d78f-41d5-9d5a-f9625419de7d.png)
 ![GTKWAVE PISO OUTPUT2](https://user-images.githubusercontent.com/110079774/181261765-424b7989-e7e0-4062-9c26-f6912ba6d487.png)
 ![GTKWAVE PISO OUTPUT3](https://user-images.githubusercontent.com/110079774/181261780-eddddd84-6fc8-4abc-aa63-649f58b1ab98.png)
 
+## Contributors
++ Rajkumar Manishbhai Kachhadiya
++ Kunal Ghosh
 
+## Acknowledgments
++ Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+
+## Contact Information
++ Rajkumar Manishbhai Kachhadiya, Postgraduate Student, International Institute of Information Technology, Bangalore raj.kachhadiya15@gmail.com
++ Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
 
 
 
