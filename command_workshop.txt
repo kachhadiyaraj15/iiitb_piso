@@ -1,0 +1,12 @@
+read_liberty -lib ../iiitb_piso/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog iiitb_piso.v
+synth -top iiitb_piso
+abc -liberty ../iiitb_piso/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+write_verilog -noattr iiitb_piso_net.v
+show
+exit
+
+
+iverilog ../iiitb_piso/verilog_model/primitives.v ../iiitb_piso/verilog_model/sky130_fd_sc_hd.v iiitb_piso_net.v iiitb_piso_tb.v
+./a.out
+gtkwave dump.vcd
