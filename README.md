@@ -60,6 +60,11 @@ Here all file save in `gitgub` folder
   $ gtkwave dump.vcd
  ```
 ![RUN terminal PISO ](https://user-images.githubusercontent.com/110079774/181263695-7e2905ea-8f60-40c2-9d4f-4fcc90d178a1.png)
+Command for run synthesis file:
+
+![synth_output_wave_command](https://user-images.githubusercontent.com/110079774/184916226-05309073-691c-4462-b388-828bf498f45d.png)
+
+
 
 ## GTKWAVE Output:
 Simulation results 
@@ -67,6 +72,8 @@ Simulation results
 ![GTKWAVE PISO OUTPUT1](https://user-images.githubusercontent.com/110079774/181261645-8668ccc8-d78f-41d5-9d5a-f9625419de7d.png)
 ![GTKWAVE PISO OUTPUT2](https://user-images.githubusercontent.com/110079774/181261765-424b7989-e7e0-4062-9c26-f6912ba6d487.png)
 ![GTKWAVE PISO OUTPUT3](https://user-images.githubusercontent.com/110079774/181261780-eddddd84-6fc8-4abc-aa63-649f58b1ab98.png)
+The gate level simulation waveform matches with the RTL simulation waveform.
+![synth_output_wave](https://user-images.githubusercontent.com/110079774/184916203-9e189257-ebd2-40d8-bc76-6b14b8c4fe69.png)
 
 ## Contributors
 + Rajkumar Manishbhai Kachhadiya
