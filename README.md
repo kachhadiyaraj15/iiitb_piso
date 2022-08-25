@@ -75,6 +75,105 @@ Simulation results
 The gate level simulation waveform matches with the RTL simulation waveform.
 ![synth_output_wave](https://user-images.githubusercontent.com/110079774/184916203-9e189257-ebd2-40d8-bc76-6b14b8c4fe69.png)
 
+## PHYSICAL DESIGN
+
+**Openlane**<br>
+
+OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, CVC, SPEF-Extractor, CU-GR, Klayout and a number of custom scripts for design exploration and optimization. The flow performs full ASIC implementation steps from RTL all the way down to GDSII.<br>
+
+more at https://github.com/The-OpenROAD-Project/OpenLane
+
+**Installation instructions**<br>
+
+``` $   apt install -y build-essential python3 python3-venv python3-pip ```
+
+Docker installation process: https://docs.docker.com/engine/install/ubuntu/
+
+goto home directory->
+``` 
+$   git clone https://github.com/The-OpenROAD-Project/OpenLane.git
+$   cd OpenLane/
+$   sudo make 
+```
+To test the open lane
+``` 
+$ sudo make test
+```
+It takes approximate time of 5min to complete. After 43 steps, if it ended with saying **Basic test passed** then open lane installed succesfully.
+
+**Magic**
+Magic is a venerable VLSI layout tool, written in the 1980's at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl. Due largely in part to its liberal Berkeley open-source license, magic has remained popular with universities and small companies. The open-source license has allowed VLSI engineers with a bent toward programming to implement clever ideas and help magic stay abreast of fabrication technology. However, it is the well thought-out core algorithms which lend to magic the greatest part of its popularity. Magic is widely cited as being the easiest tool to use for circuit layout, even for people who ultimately rely on commercial tools for their product design flow.
+
+More about magic at http://opencircuitdesign.com/magic/index.html
+
+Run following commands one by one to fulfill the system requirement.
+```
+$   sudo apt-get install m4
+$   sudo apt-get install tcsh
+$   sudo apt-get install csh
+$   sudo apt-get install libx11-dev
+$   sudo apt-get install tcl-dev tk-dev
+$   sudo apt-get install libcairo2-dev
+$   sudo apt-get install mesa-common-dev libglu1-mesa-dev
+$   sudo apt-get install libncurses-dev
+```
+**To install magic** goto home directory
+```
+$   git clone https://github.com/RTimothyEdwards/magic
+$   cd magic/
+$   ./configure
+$   sudo make
+$   sudo make install
+```
+type **magic** terminal to check whether it installed succesfully or not. type exit to exit magic.
+
+**Generating Layout**
+
+Open terminal in home directory
+```
+$   cd OpenLane/
+$   cd designs/
+$   mkdir iiitb_piso
+$   cd iiitb_piso/
+$   wget https://raw.githubusercontent.com/sanampudig/iiitb_piso/main/config.json
+$   mkdir src
+$   cd src/
+$   wget https://raw.githubusercontent.com/sanampudig/iiitb_piso/main/iiitb_piso.v
+$   cd ../../../
+$   sudo make mount
+$   ./flow.tcl -design iiitb_piso
+```
+
+To see the layout we use a tool called magic which we installed earlier.
+
+open terminal in home directory
+
+```
+$   cd OpenLane/designs/iiitb_piso/run
+$   ls
+```
+select most run directoy from list
+```
+$  cd RUN_2022.08.24_18.20.10
+```
+run following instruction
+```
+$   cd results/final/def
+```
+update the highlited text with appropriate path
+![path_for_physical_design](https://user-images.githubusercontent.com/110079774/186657674-9d03b896-64e1-4a88-989d-8da43ad5a204.png)
+
+
+layout will be open in new window
+
+**layout**
+![layout_diagram_sh](https://user-images.githubusercontent.com/110079774/186656941-eb6fc094-1572-4d11-9854-ee462ab54aa1.png)
+
+
+## Future work:
+working on GLS for post-layout netlist.
+
+
 ## Contributors
 + Rajkumar Manishbhai Kachhadiya
 + Kunal Ghosh
