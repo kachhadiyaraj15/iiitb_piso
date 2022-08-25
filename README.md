@@ -187,7 +187,7 @@ working on GLS for post-layout netlist.
 + Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
 
 ## Reference
-
+https://www.ti.com/lit/ds/symlink/sn74hc165.pdf?ts=1658811599345&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253Dsn74hc165dr%2526nr%253D12
 
 
 
