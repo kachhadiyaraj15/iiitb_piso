@@ -329,6 +329,10 @@ run_routing
 ```
 ![image](https://user-images.githubusercontent.com/110079774/187424709-e892ef96-d58d-4f11-97ef-e6ec0f4846d5.png)
 
+The results after the routing are:
+![image](https://user-images.githubusercontent.com/110079774/187440601-094732e9-2594-4ba4-b71d-2f6270eb5ec4.png)
+![image](https://user-images.githubusercontent.com/110079774/187440831-8f071cd8-8adc-4b66-9dd4-af21f4e17daa.png)
+
 
 ## Future work:
 working on GLS for post-layout netlist.
