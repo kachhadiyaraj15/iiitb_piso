@@ -167,7 +167,10 @@ update the highlited text with appropriate path
 layout will be open in new window
 
 **layout**
-![layout_diagram_sh](https://user-images.githubusercontent.com/110079774/186656941-eb6fc094-1572-4d11-9854-ee462ab54aa1.png)
+![magicpiso](https://user-images.githubusercontent.com/110079774/187410858-3374aed0-eac5-40f1-8765-8a84b91c058a.png)
+
+
+![vsdinv](https://user-images.githubusercontent.com/110079774/187410889-3111500f-cbdd-4776-b64e-7bf5facdb5bb.png)
 
 
 ## Future work:
