@@ -312,8 +312,6 @@ run_cts
 ```
 ![image](https://user-images.githubusercontent.com/110079774/187424331-b901737f-932a-43dc-ab2d-12e55825e985.png)
 
-The timing results after the CTS is as shwon:
-![cts_results](https://user-images.githubusercontent.com/110079634/187262626-ea8ce81c-c304-41e5-a130-c906e8770892.png)
 
 ### 7.9 Routing:
 
@@ -330,11 +328,6 @@ Write the command to run routing:
 run_routing
 ```
 ![image](https://user-images.githubusercontent.com/110079774/187424709-e892ef96-d58d-4f11-97ef-e6ec0f4846d5.png)
-
-The results after the routing are:
-
-![routing_resultsjc](https://user-images.githubusercontent.com/110079634/187263803-b1ceb7bb-83f0-4fb0-83b1-59f5ba52974d.png)
-![routing_resultsjc2](https://user-images.githubusercontent.com/110079634/187263809-aa8afeda-9d3c-4acd-b930-6426cd4f0c91.png)
 
 
 ## Future work:
