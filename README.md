@@ -243,7 +243,8 @@ add_lefs -src $lefs
 Synthesis is the process of creating a gate level description of the blocks that are described behaviorally in verilog and prepairing the complete design for the place and route process.
 
 ** Physical Cells**
-![image](https://user-images.githubusercontent.com/110079774/187433669-50351b86-832c-4702-b912-74565169a67a.png)
+![Q1](https://user-images.githubusercontent.com/110079774/192447043-283865ed-a818-4292-ae0d-3ed88792b2fb.png)
+
 
 Write the command for synthesis:
 ```run_synthesis
