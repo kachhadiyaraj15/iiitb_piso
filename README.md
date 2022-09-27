@@ -340,7 +340,7 @@ The results after the routing are:
 
 
 ## Future work:
-working on GLS for post-layout netlist.
+Tap-out
 
 
 ## Contributors
