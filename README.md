@@ -311,6 +311,9 @@ The purpose of building a clock tree is enable the clock input to reach every el
 ```
 run_cts
 ```
+Power:
+![Q5](https://user-images.githubusercontent.com/110079774/192448865-61450f32-f158-4180-bee1-6073e509414a.png)
+
 ![image](https://user-images.githubusercontent.com/110079774/187424331-b901737f-932a-43dc-ab2d-12e55825e985.png)
 
 
@@ -328,7 +331,8 @@ Write the command to run routing:
 ```
 run_routing
 ```
-![image](https://user-images.githubusercontent.com/110079774/187424709-e892ef96-d58d-4f11-97ef-e6ec0f4846d5.png)
+![Q2](https://user-images.githubusercontent.com/110079774/192448560-ba0b9525-9afc-465f-a9b1-670e8e4e6a09.png)
+
 
 The results after the routing are:
 ![image](https://user-images.githubusercontent.com/110079774/187440601-094732e9-2594-4ba4-b71d-2f6270eb5ec4.png)
