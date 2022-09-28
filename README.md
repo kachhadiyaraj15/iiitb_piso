@@ -338,6 +338,9 @@ The results after the routing are:
 ![image](https://user-images.githubusercontent.com/110079774/187440601-094732e9-2594-4ba4-b71d-2f6270eb5ec4.png)
 ![image](https://user-images.githubusercontent.com/110079774/187440831-8f071cd8-8adc-4b66-9dd4-af21f4e17daa.png)
 
+### 7.10 Performance 
+![performance](https://user-images.githubusercontent.com/110079774/192699413-513750d2-6dfa-44db-adad-ce45adf75f0e.png)
+
 
 ## Future work:
 Tap-out
